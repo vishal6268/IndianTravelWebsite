@@ -81,3 +81,9 @@ The website will open automatically at http://localhost:3000.
 
      postcss.config.js: Configuration for Tailwind processing.
 Developed with ❤️ for exploring the beauty of India.
+
+```bash
+ npm install -D tailwindcss@3 postcss autoprefixer
+>> npx tailwindcss init -p
+```
+
