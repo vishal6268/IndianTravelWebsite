@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Clock, Star, Users, Award, TrendingUp, Smile, Calendar, Phone, Mail, MapPinned, Facebook, Twitter, Instagram, Youtube, Send, Menu, X, Package, Briefcase, Heart, Camera, Mountain, Plane, Hotel, Utensils, Shield } from 'lucide-react';
-
+import { 
+  MapPin, Clock, Star, Users, Award, TrendingUp, Smile, Calendar, 
+  Phone, Mail, MapPinned, Facebook, Twitter, Instagram, Youtube, 
+  Send, Menu, X, Package, Heart, Camera, Hotel, Utensils, Shield 
+} from 'lucide-react'; 
+// Dekho yahan se Briefcase, Mountain, aur Plane hata diye hain
 const IndianTravelWebsite = () => {
   const [currentPage, setCurrentPage] = useState('home');
   const [selectedDestination, setSelectedDestination] = useState('');
